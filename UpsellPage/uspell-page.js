@@ -1,8 +1,23 @@
-// Select the upgrade button
-const upgradeButton = document.getElementById("upgrade-button");
+// Function to scroll left
 
-// Add a click event listener to the button
-upgradeButton.addEventListener("click", () => {
-  alert("Thank you for upgrading!");
-  // Add more actions here if needed
-});
+function scrollLeft() {
+  const container = document.querySelector(".buttons-container");
+
+  container.scrollBy({
+    left: -200, // Adjust scroll distance as needed
+
+    behavior: "smooth",
+  });
+}
+
+// Function to scroll right
+
+function scrollRight() {
+  const container = document.querySelector(".buttons-container");
+
+  container.scrollBy({
+    left: 200, // Adjust scroll distance as needed
+
+    behavior: "smooth",
+  });
+}

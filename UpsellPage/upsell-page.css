@@ -98,3 +98,100 @@ html {
   font-size: 1rem; /* Adjust as needed */
   margin-top: 10px;
 }
+
+/* Exclusive Offer Section */
+.exclusive-offer {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.exclusive-offer h2 {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.offer-steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.step {
+  flex: 1 1 calc(25% - 20px);
+  max-width: 220px;
+  text-align: center;
+}
+
+.step img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.step h3 {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #6445ff;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.activity-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #f1f1f1;
+}
+.buttons-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  max-width: 80%;
+  padding: 0 10px;
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+.activity-btn {
+  background-color: #94baf3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+  white-space: nowrap;
+}
+.activity-btn.selected {
+  background-color: #e7e4ff;
+  color: #6445ff;
+}
+.activity-btn:hover {
+  background-color: #6a5acd;
+  color: white;
+}
+.arrow-button {
+  background-color: #6445ff;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0 15px;
+}
+.arrow-button:hover {
+  background-color: #6a5acd;
+}
