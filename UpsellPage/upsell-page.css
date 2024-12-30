@@ -195,3 +195,156 @@ html {
 .arrow-button:hover {
   background-color: #6a5acd;
 }
+
+/* Reasons Section */
+.reasons-section {
+  padding: 40px 20px;
+  position: relative;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.reasons-background {
+  position: relative;
+  background-image: url("../assets/circle.png"); /* Replace with the correct path to your image */
+  background-size: contain; /* Ensures the entire image fits within the section */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.reasons-section h2 {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.reasons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.reason {
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.reason p {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.disclaimer {
+  margin-top: 30px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.adventure-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.adventure-heading {
+  color: #6445ff; /* Matches your theme */
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.adventure-subheading {
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.adventure-text {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 700px; /* To limit the text width */
+}
+
+.excursions-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.card {
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 2px solid #ddd; /* Adds a nice separation */
+}
+
+.card p {
+  margin: 10px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.savings-section {
+  background: #f9f9f9; /* Light background to separate this section */
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 40px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.savings-section h2 {
+  font-size: 2rem;
+  color: #4b4bfd; /* Accent color for the title */
+  margin-bottom: 20px;
+}
+
+.savings-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.savings-section strong {
+  color: #000;
+  font-weight: bold;
+}
