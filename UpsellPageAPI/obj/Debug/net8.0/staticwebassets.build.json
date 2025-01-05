@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3kw5OAoOEyWYxZuPZMoRZumBt4RH5Uqu3vBLSEnkSoI=",
+  "Source": "UpsellPageAPI",
+  "BasePath": "_content/UpsellPageAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
