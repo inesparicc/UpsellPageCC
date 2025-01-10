@@ -6,7 +6,7 @@ html {
   box-sizing: border-box;
   font-family: "Inter", Arial, sans-serif;
 }
- 
+
 /* Header styles */
 .header {
   display: flex;
@@ -16,16 +16,16 @@ html {
   background: linear-gradient(90deg, #6445ff, #c2cef5);
   color: white;
 }
- 
+
 .logo img {
   height: 40px;
 }
- 
+
 .nav-links {
   display: flex;
   gap: 20px;
 }
- 
+
 .nav-links a {
   text-decoration: none;
   color: white;
@@ -33,16 +33,16 @@ html {
   font-weight: 600;
   transition: color 0.3s;
 }
- 
+
 .nav-links a:hover {
   color: #dcdcdc;
 }
- 
+
 .buttons {
   display: flex;
   gap: 10px;
 }
- 
+
 .btn {
   background-color: white;
   color: #6a5acd;
@@ -53,12 +53,12 @@ html {
   font-weight: 600;
   transition: background-color 0.3s, color 0.3s;
 }
- 
+
 .btn:hover {
   background-color: #6a5acd;
   color: white;
 }
- 
+
 /* Hero Section */
 .hero {
   position: relative;
@@ -70,7 +70,7 @@ html {
   overflow: hidden;
   margin: 0;
 }
- 
+
 .hero-image {
   position: absolute;
   top: 0;
@@ -80,48 +80,48 @@ html {
   object-fit: cover;
   z-index: 1;
 }
- 
+
 .hero-content {
   position: relative;
   z-index: 2;
   color: white;
 }
- 
+
 .hero-content h1 {
   font-size: 2rem;
   font-weight: bold;
 }
- 
+
 .hero-content p {
   font-size: 1rem;
   margin-top: 10px;
 }
- 
+
 /* Section Styling */
 section {
   padding: 40px 20px;
   text-align: center;
   background-color: #f9f9f9;
 }
- 
+
 section h2 {
   font-size: 1.8rem;
   font-weight: bold;
   color: #333;
   margin-bottom: 20px;
 }
- 
+
 section p {
   font-size: 1rem;
   color: #555;
   margin-bottom: 20px;
 }
- 
+
 .highlight {
   color: #6445ff;
   font-weight: bold;
 }
- 
+
 /* Reusable Activity Cards */
 .activity-cards {
   display: flex;
@@ -129,7 +129,7 @@ section p {
   justify-content: center;
   gap: 20px;
 }
- 
+
 .activity-card {
   background-color: white;
   border-radius: 10px;
@@ -138,20 +138,20 @@ section p {
   max-width: 300px;
   text-align: left;
 }
- 
+
 .activity-card.wide {
   max-width: 350px;
 }
- 
+
 .activity-card img {
   width: 100%;
   height: auto;
 }
- 
+
 .activity-details {
   padding: 15px;
 }
- 
+
 .discount {
   display: flex;
   justify-content: space-between;
@@ -160,20 +160,20 @@ section p {
   color: #555;
   margin-bottom: 10px;
 }
- 
+
 .activity-card h3 {
   font-size: 1.2rem;
   color: #6445ff;
   margin-bottom: 10px;
 }
- 
+
 .activity-card p {
   font-size: 0.9rem;
   color: #555;
   line-height: 1.4;
   margin-bottom: 15px;
 }
- 
+
 .info-reserve {
   background-color: #6445ff;
   color: white;
@@ -185,11 +185,11 @@ section p {
   text-align: center;
   width: 100%;
 }
- 
+
 .info-reserve:hover {
   background-color: #6a5acd;
 }
- 
+
 /* Exclusive Offer Section */
 .offer-steps {
   display: flex;
@@ -197,32 +197,32 @@ section p {
   justify-content: center;
   gap: 20px;
 }
- 
+
 .step {
   flex: 1 1 calc(25% - 20px);
   max-width: 220px;
   text-align: center;
 }
- 
+
 .step img {
   width: 50px;
   height: 50px;
   margin-bottom: 15px;
 }
- 
+
 .step h3 {
   font-size: 1rem;
   font-weight: bold;
   color: #6445ff;
   margin-bottom: 10px;
 }
- 
+
 .step p {
   font-size: 0.9rem;
   color: #555;
   line-height: 1.4;
 }
- 
+
 /* Activity Buttons */
 .activity-buttons {
   display: flex;
@@ -231,7 +231,7 @@ section p {
   padding: 20px 0;
   background-color: #f1f1f1;
 }
- 
+
 .buttons-container {
   display: flex;
   overflow-x: auto;
@@ -240,7 +240,7 @@ section p {
   padding: 0 10px;
   scroll-behavior: smooth;
 }
- 
+
 .activity-btn {
   background-color: #94baf3;
   color: white;
@@ -253,17 +253,17 @@ section p {
   transition: background-color 0.3s, color 0.3s;
   white-space: nowrap;
 }
- 
+
 .activity-btn.selected {
   background-color: #e7e4ff;
   color: #6445ff;
 }
- 
+
 .activity-btn:hover {
   background-color: #6a5acd;
   color: white;
 }
- 
+
 .arrow-button {
   background-color: #6445ff;
   color: white;
@@ -273,18 +273,18 @@ section p {
   cursor: pointer;
   margin: 0 15px;
 }
- 
+
 .arrow-button:hover {
   background-color: #6a5acd;
 }
- 
+
 /* Reasons Section */
 .reasons-section {
   position: relative;
   text-align: center;
   background-color: #f9f9f9;
 }
- 
+
 .reasons-background {
   position: relative;
   background-image: url("../assets/circle.png");
@@ -292,14 +292,14 @@ section p {
   background-repeat: no-repeat;
   background-position: center;
 }
- 
+
 .reasons-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
- 
+
 .reason {
   background-color: #fff;
   border-radius: 50%;
@@ -312,13 +312,13 @@ section p {
   justify-content: center;
   text-align: center;
 }
- 
+
 .reason p {
   font-size: 0.9rem;
   color: #555;
   line-height: 1.4;
 }
- 
+
 /* Savings Section */
 .savings-section {
   background: #f9f9f9;
@@ -328,27 +328,27 @@ section p {
   margin: 40px 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
- 
+
 .savings-section h2 {
   font-size: 2rem;
   color: #4b4bfd;
   margin-bottom: 20px;
 }
- 
+
 .savings-section p {
   font-size: 1rem;
   line-height: 1.6;
   color: #333;
   margin-bottom: 20px;
 }
- 
+
 .savings-section strong {
   color: #000;
   font-weight: bold;
 }
- 
+
 .reasons-background {
-  background-image: url('../assets/upsell-page-circle.png'); /* Replace with your actual image path */
+  background-image: url("../assets/upsell-page-circle.png"); /* Replace with your actual image path */
   background-size: contain; /* Ensure the entire image fits within the container */
   background-repeat: no-repeat; /* Prevent tiling */
   background-position: center; /* Center the image within the section */
@@ -363,28 +363,28 @@ section p {
   padding: 40px 20px; /* Add padding for content inside the section */
   position: relative;
 }
- 
+
 .reasons-section {
   position: relative;
   text-align: center;
   padding: 0;
   margin: 0;
 }
- 
+
 .reasons-section h2 {
   font-size: 1.8rem;
   font-weight: bold;
   color: #333;
   margin-bottom: 30px;
 }
- 
+
 .reasons-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
- 
+
 .reason {
   background-color: white;
   border-radius: 50%;
@@ -397,55 +397,55 @@ section p {
   justify-content: center;
   text-align: center;
 }
- 
+
 .reason p {
   font-size: 0.9rem;
   color: #555;
   line-height: 1.4;
 }
- 
+
 .disclaimer {
   margin-top: 30px;
   font-size: 1rem;
   font-weight: bold;
   color: #333;
 }
- 
+
 /* Canary Adventure Section */
 .canary-adventure {
   padding: 40px 20px;
   text-align: center;
   background-color: #f9f9f9;
 }
- 
+
 .canary-adventure h2 {
   font-size: 1.8rem;
   font-weight: bold;
   color: #6445ff;
   margin-bottom: 10px;
 }
- 
+
 .canary-adventure h3 {
   font-size: 1.5rem;
   font-weight: bold;
   color: #333;
   margin-bottom: 20px;
 }
- 
+
 .canary-adventure p {
   font-size: 1rem;
   color: #555;
   line-height: 1.5;
   margin-bottom: 30px;
 }
- 
+
 .excursions-container {
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
 }
- 
+
 .excursion-card {
   background-color: white;
   border-radius: 10px;
@@ -454,14 +454,14 @@ section p {
   max-width: 300px;
   overflow: hidden;
 }
- 
+
 .excursion-card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
- 
+
 .excursion-card p {
   font-size: 1rem;
   font-weight: bold;
@@ -469,7 +469,7 @@ section p {
   padding: 15px 10px;
   margin: 0;
 }
- 
+
 /* Ultimate Savings Section */
 .ultimate-savings {
   text-align: center;
@@ -477,42 +477,42 @@ section p {
   background-color: #f9f9f9; /* Subtle background for separation */
   color: #333; /* Standard text color */
 }
- 
+
 .ultimate-savings h2 {
   font-size: 1.8rem;
   font-weight: bold;
   color: #000; /* Black for emphasis */
   margin-bottom: 15px;
 }
- 
+
 .ultimate-savings h3 {
   font-size: 1.4rem;
   font-weight: bold;
   color: #333; /* Slightly lighter than h2 */
   margin-bottom: 20px;
 }
- 
+
 .ultimate-savings p {
   font-size: 1rem;
   line-height: 1.6;
   color: #555;
   margin-bottom: 20px;
 }
- 
+
 .ultimate-savings a {
   color: #6445ff; /* Link color for emphasis */
   text-decoration: none;
   font-weight: bold;
 }
- 
+
 .ultimate-savings a:hover {
   text-decoration: underline; /* Underline on hover for clarity */
 }
- 
+
 .ultimate-savings strong {
   color: #000; /* Bold and black for highlighted places */
 }
- 
+
 /* Footer Section */
 .footer {
   background-color: #6445ff; /* Purple background */
@@ -520,7 +520,7 @@ section p {
   padding: 40px 20px;
   text-align: center;
 }
- 
+
 .footer-content {
   display: flex;
   flex-wrap: wrap;
@@ -530,59 +530,57 @@ section p {
   max-width: 1200px;
   margin: 0 auto;
 }
- 
+
 .footer-logo {
   text-align: left;
 }
- 
+
 .footer-logo img {
   width: 60px;
   margin-bottom: 10px;
 }
- 
+
 .footer-logo p {
   font-size: 2rem;
   font-weight: bold;
   margin: 0;
 }
- 
+
 .footer-contact,
 .footer-links {
   text-align: left;
 }
- 
+
 .footer-contact h3,
 .footer-links h3 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
- 
+
 .footer-contact p,
 .footer-links p {
   margin: 5px 0;
   font-size: 1rem;
 }
- 
+
 .footer-links a,
 .footer-contact a {
   color: white;
   text-decoration: none;
 }
- 
+
 .footer-links a:hover,
 .footer-contact a:hover {
   text-decoration: underline;
 }
- 
+
 .footer-payment {
   margin-top: 20px;
 }
- 
+
 .footer-payment img {
   max-width: 100%;
   height: auto;
   object-fit: contain;
 }
- 
-ima kontekstni izbornik

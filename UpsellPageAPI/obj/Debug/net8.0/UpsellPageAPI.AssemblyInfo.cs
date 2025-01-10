@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UpsellPageAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7157ea41672e7142f301b17e634ae532c8e23a79")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4caa560ee85c40e135ea4ab40bdcf9152407d640")]
 [assembly: System.Reflection.AssemblyProductAttribute("UpsellPageAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UpsellPageAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
